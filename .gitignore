@@ -6,3 +6,4 @@ data.db
 venv/
 .notes/
 playground/
+.DS_Store
