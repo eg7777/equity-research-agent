@@ -2,14 +2,13 @@
 
 **Automated equity research with built-in trust scoring.**
 
-Type a ticker. Three specialist agents — quantitative, news, and filings —
-gather data in parallel from Yahoo Finance, Tavily, and SEC EDGAR. A synthesis
-agent reconciles their outputs into a structured research brief where every
-factual claim carries an inline citation and a confidence score. An evaluation
-pipeline then scores the entire report on factual grounding, citation quality,
-and numeric accuracy — automatically, with no human in the loop.
-
-Every report ships with its own quality scorecard.
+Three agents (quant, news, filings) pull data from Yahoo Finance,
+Tavily, and SEC EDGAR in parallel. A synthesis agent combines their
+outputs into a research brief with inline citations and per-claim
+confidence scores. After generation, an eval pipeline scores the
+report on factual grounding, citation precision, and numeric accuracy
+— no manual review required. Each report includes its eval scores
+alongside the output.
 
 ## What it demonstrates
 
